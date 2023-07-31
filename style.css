@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+#container {
+  padding: 100px 400px;
+}
+#title,
+#description {
+  text-align: center;
+}
+#legend {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.cell {
+  stroke: #fff;
+}
+#tooltip {
+  position: absolute;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  pointer-events: none;
+  display: none;
+}
+
+svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
